@@ -1,0 +1,93 @@
+.menuWrap ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.menuWrap ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 57px;
+    justify-content: right;
+}
+.logoWrap img {
+    width: 72%;
+    max-width: 100%;
+}
+header {
+    padding-top: 0px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    
+}
+.menuWrap{
+    padding-top: 10px;
+}
+section.paraSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.slideText p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.slideText h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 43px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.slideBgOne {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #00bdf0;
+    padding-left: 30px;  
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.img1 img {
+    width: 100%;
+    float: right;
+}
+section.paraSection .container {
+    position: relative;
+}
+.paraSection{
+    position: relative;
+}
+.leaf1 {
+    position: absolute;
+    z-index: 333;
+    bottom: 0;
+    right: 0;
+    left: 36rem;
+}
+
+.leaf3 {
+    position: absolute;
+    z-index: 333;
+    left: 30rem;
+    top: 8rem;
+}
+.leaf2 {
+    position: absolute;
+    z-index: 33333;
+    bottom: 16rem;
+    left: 5rem;
+}
+.slideText {
+    position: relative;
+    z-index: 66666;
+}
